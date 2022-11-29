@@ -1,0 +1,105 @@
+* {
+    text-align: center;
+}
+
+
+main {
+    background-image: url("https://www.udacity.com/blog/wp-content/uploads/2020/06/HTML_Blog-scaled.jpeg");
+    z-index: -5;
+    height:fit-content;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+
+p {
+    background-color: rgba(123, 202, 238, 0.9);
+    width: 500px;
+    border-radius: 15px 50px;
+    color: rgb(28, 1, 78);
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+    font-weight: bold;
+
+}
+
+table {
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    border: 3px solid white;
+}
+
+th {
+    height: 50px;
+    background-color: rgba(11, 248, 165, 0.9);
+    font-weight: bolder;
+}
+
+td {
+    text-align: justify;
+    background-color: rgba(123, 202, 238, 1);
+    z-index: 10;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid white;
+    z-index: 10;
+}
+
+
+.table-1 {
+    font-family: monospace, sans-serif;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-1 h1 {
+    text-align: center;
+    color: rgb(28, 1, 78);
+    background-color: rgba(123, 202, 238, 0.9);
+    width: 400px;
+    border-radius: 15px 50px;
+    margin-block-start: 0.0;
+    margin-block-start: 0.0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+    margin-bottom: 50px;
+
+
+}
+
+.table-2 {
+    font-family: monospace, sans-serif;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.table-2 h1 {
+    font-family: monospace, sans-serif;
+    text-align: center;
+    color: rgb(28, 1, 78);
+    background-color: rgba(123, 202, 238, 0.9);
+    width: 400px;
+    border-radius: 15px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid white;
+    background-color: #73ad21c9;
+    font-family: monospace, sans-serif;
+  }
